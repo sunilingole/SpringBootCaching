@@ -49,4 +49,6 @@ public class StudentController {
 
 		return ResponseEntity.ok(" data deleted successfuly");
 	}
+
+	@Get("/deletedatabyid/{studentId}")
 }
